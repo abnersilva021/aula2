@@ -6,7 +6,7 @@
 }
 
 header{
-    background-color: rgb(216, 189, 255);
+    background-color: purple;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 0;
@@ -14,12 +14,12 @@ header{
 
 img{
     height: 100px;
-    background-color: rgb(216, 189, 255);
+    background-color: purple;
 }
 
-h1{
-    background-color: rgb(216, 189, 255);
-}
+/* h1{
+    background-color: purple;
+} */
 
 li{
     list-style: none;
@@ -33,8 +33,8 @@ li{
   background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
   border-radius: 42px;
   border-width: 0;
-  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
-  color: #FFFFFF;
+  box-shadow:purple;
+  color: black;
   cursor: pointer;
   display: flex;
   font-family: Quicksand,sans-serif;
@@ -57,7 +57,7 @@ li{
 }
 
 .button-72:hover {
-  background-image: linear-gradient(#B384C9, #391F5B 50%);
+  background-image: purple;
 }
 
 @media (min-width: 768px) {
@@ -72,8 +72,8 @@ li{
 }
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: purple;
+    color: black;
     padding: 50px;
     align-items: left;
     justify-content: space-between;

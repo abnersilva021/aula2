@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rifa</title>
+    <title>Rifa CSL</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
     <form action="rifaa.php" method="POST">
-        <h1>Rifa</h1>
+        <h1>Rifa CSL</h1>
+        <br>
+        <br>
         <label for="premio">Prêmio:</label>
         <input type="text" name="premio">
+        <br>
         <br>
         <label for="valor">Valor:</label>
         <input type="text" name="valor">
         <br>
+        <br>
         <label for="quantNum">Quantidade:</label>
         <input type="text" name="quantNum">
         <br>
+        <br>
         <label for="img">Imagem:</label>
         <input type="url" name="img">
-        
+        <br>
         <br>
 
         <input type="submit" value="Criar">
