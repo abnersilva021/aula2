@@ -10,6 +10,18 @@
     
 <header>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+
         <!-- <h1>Exercícios PHP</h1> -->
         <img src="https://blog.schoolofnet.com/wp-content/uploads/2019/01/php-leader-1024x524.png" alt="phpLogo">
     </header>
