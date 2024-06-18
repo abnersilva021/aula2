@@ -5,11 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<header>
+
+<!-- <h1>Exercícios PHP</h1> -->
+<img src="https://blog.schoolofnet.com/wp-content/uploads/2019/01/php-leader-1024x524.png" alt="phpLogo">
+</header>
+
+    <div class="container">
     <h1>Caculadora de gorjeta</h1>
+    <br>
+    <br>
+
     <form action="calculadoragorjeta.php" method="POST">
         <label for="valo">Valor da conta:</label>
         <input type="number" id="Valor" name="valor" step="0.01" required><br><br>
@@ -40,7 +51,10 @@
         }
         ?>
     </div>
+</div>
+
 
 </body>
+
 
 </html>
