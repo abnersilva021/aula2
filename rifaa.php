@@ -7,21 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+<header>
+
+<!-- <h1>Exercícios PHP</h1> -->
+<img src="https://blog.schoolofnet.com/wp-content/uploads/2019/01/php-leader-1024x524.png" alt="phpLogo">
+</header>
     <div class="container">
     <form action="rifaa.php" method="POST">
-        <h1>Rifa</h1>
+        <h1>Rifa CSL</h1>
+        <br>
+        <br>
         <label for="premio">Prêmio:</label>
         <input type="text" name="premio">
+        <br>
         <br>
         <label for="valor">Valor:</label>
         <input type="text" name="valor">
         <br>
+        <br>
         <label for="quantNum">Quantidade:</label>
         <input type="text" name="quantNum">
         <br>
+        <br>
         <label for="img">Imagem:</label>
         <input type="url" name="img">
-        
+        <br>
         <br>
 
         <input type="submit" value="Criar">
@@ -68,5 +79,7 @@
     }   
     ?>
     </div>
+
+    
 </body>
 </html>
